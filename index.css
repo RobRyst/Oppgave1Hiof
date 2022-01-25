@@ -1,0 +1,115 @@
+#page-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    border-bottom: 2px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+
+}
+
+#logo-link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+header h3 {
+    margin: 10px;
+}
+
+#todo-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+/* Bruker h4 tag her pga. dette ikke er en side som skal videre utvikles. Ville gitt disse en klasse eller eventuelt en ID om man skulle gjøre noe spesifikt med hver og en. */
+
+#user-link a {
+    color: gray;
+}
+#title {
+    width: 50%;
+    height: 5vh;
+}
+
+#content {
+    width: 100%;
+    height: 15vh;
+}
+
+#body-box {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.form-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.main-box {
+    justify-content: space-between;
+    border: 1px hidden black;
+    flex-grow: 1;
+    flex-basis: 20%;
+    padding: 10px;
+    box-shadow: 1px 11px 3px 0px #5ad2c1;
+    /* Fikk ikke til den svake skyggen*/
+    padding: 20px;
+}
+
+.complete-btn {
+    padding: 5px;
+    background-color: #5ad2c1;
+    border-radius: 6px;
+    color: white;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#center-body {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    margin-top: 5vh;
+    margin-bottom: 20vh;
+}
+
+.complete-btn {
+    float: right;
+
+}
+
+#title, #content {
+    border: 2px solid #C8C8C8;
+}
+
+#comment-btn {
+    float: right;
+    margin-top: 10px;
+    padding: 7px;
+    width: 10%;
+    border-radius: 6px;
+    background-color: #5ad2c1;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
